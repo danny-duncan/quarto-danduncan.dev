@@ -1,0 +1,20 @@
+---
+title: "Daniel Duncan"
+image: media/headshot.jpeg
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 17em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/danielrduncan/
+    - text: GitHub
+      href: https://github.com/danny-duncan
+    - text: Email
+      href: mailto:d.duncan@colostate.edu
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
