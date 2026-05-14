@@ -2,19 +2,31 @@
 title: "Daniel Duncan"
 image: media/headshot.jpeg
 toc: false
+format: 
+  html:
+    page-layout: full
 about: 
-  template: jolla
+  template: trestles
   image-shape: round
-  image-width: 17em
+  image-width: 12em
   links:
-    - text: LinkedIn
+    - text: "<span id='sidebar-bio'></span>"
+    - icon: flask
+      text: "Radical Open Science Syndicate"
+      href: https://www.rossyndicate.com/
+      target: _blank
+    - icon: bank
+      text: "Colorado State University"
+      href: https://warnercnr.colostate.edu/ess/
+      target: _blank
+    - icon: linkedin
+      text: LinkedIn
       href: https://www.linkedin.com/in/danielrduncan/
-    - text: GitHub
+      target: _blank
+    - icon: github
+      text: GitHub
       href: https://github.com/danny-duncan
-    - text: Email
-      href: mailto:d.duncan@colostate.edu
+      target: _blank
 ---
 
 This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

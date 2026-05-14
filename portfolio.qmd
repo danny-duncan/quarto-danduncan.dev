@@ -1,0 +1,65 @@
+---
+title: "My Portfolio"
+subtitle: "A collection of data, code, and projects from curiosity"
+
+format:
+  html:
+    page-layout: full
+    css: styles.css
+---
+
+## Featured Projects
+
+::: {.grid}
+
+<!-- Project 1 -->
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+
+::: {.card .h-100}
+
+![](media/tide-plan-app.png){.card-img-top}
+
+::: {.card-body}
+
+### NOAA CO-OPs Tide Planning Application
+A Shiny app built to help the Northwest Straits Commission and coastal communities with field planning by visualizing NOAA CO-OPs tide data and forecasts. Users can input a location, date range, and tide threshold to determine what time window is best for field work.
+<br>
+[View Project](https://danny-duncan.shinyapps.io/tide-planning-app/){.btn .btn-outline-primary .btn-sm role="button"}
+:::
+:::
+
+:::
+
+<!-- Project 2 -->
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100}
+
+![](images/project2.jpg){.card-img-top}
+
+::: {.card-body}
+
+### Project Title
+Project Description
+<br>
+[View Project](https://your-link-here.com){.btn .btn-outline-primary .btn-sm role="button"}
+:::
+:::
+:::
+
+<!-- Project 3 -->
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+::: {.card .h-100}
+![](images/project3.jpg){.card-img-top}
+
+::: {.card-body}
+
+### Project Title
+Project Description
+<br>
+[View Project](https://your-link-here.com){.btn .btn-outline-primary .btn-sm role="button"}
+:::
+:::
+:::
+
+:::
+

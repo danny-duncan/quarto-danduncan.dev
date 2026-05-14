@@ -1,16 +1,30 @@
 [
   {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "My Curriculum Vitae",
+    "section": "",
+    "text": "Download CV as PDF"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Daniel Duncan",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "This is a Quarto website."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "My Portfolio",
     "section": "",
-    "text": "About this site"
+    "text": "A Shiny app built to help the Northwest Straits Commission and coastal communities with field planning by visualizing NOAA CO-OPs tide data and forecasts. Users can input a location, date range, and tide threshold to determine what time window is best for field work.  View Project\n\n\n\n\n\n\n\n\n\nProject Description  View Project\n\n\n\n\n\n\n\n\n\nProject Description  View Project"
+  },
+  {
+    "objectID": "portfolio.html#featured-projects",
+    "href": "portfolio.html#featured-projects",
+    "title": "My Portfolio",
+    "section": "",
+    "text": "A Shiny app built to help the Northwest Straits Commission and coastal communities with field planning by visualizing NOAA CO-OPs tide data and forecasts. Users can input a location, date range, and tide threshold to determine what time window is best for field work.  View Project\n\n\n\n\n\n\n\n\n\nProject Description  View Project\n\n\n\n\n\n\n\n\n\nProject Description  View Project"
   }
 ]

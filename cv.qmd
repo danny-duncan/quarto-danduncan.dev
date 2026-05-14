@@ -1,0 +1,11 @@
+---
+title: "My Curriculum Vitae"
+embed-resources: true
+---
+
+![](media/duncan_cv-combine.jpg){width=100%}
+
+
+<a href="docs/duncan_cv.pdf" download>
+  <button type="button" class="btn btn-primary">Download CV as PDF</button>
+</a>

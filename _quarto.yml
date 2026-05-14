@@ -10,8 +10,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - blog.qmd
+      - portfolio.qmd
+      - cv.qmd
 
 format:
   html:
