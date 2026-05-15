@@ -97,11 +97,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./portfolio.html"> 
-<span class="menu-text">My Portfolio</span></a>
+<span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./cv.html"> 
-<span class="menu-text">My Curriculum Vitae</span></a>
+<span class="menu-text">My CV</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -150,9 +150,28 @@ ul.task-list li input[type="checkbox"] {
 </div>
   </div>
   <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<p>This is a Quarto website.</p>
+<section id="hey-there" class="level2">
+<h2 data-anchor-id="hey-there">Hey there!</h2>
+<p>I’m Daniel, a watershed science graduate student at Colorado State University and a member of the Radical Open Science Syndicate Lab.</p>
+<p>My research examines how changes in streamflow regimes impact water quality. I’m interested in understanding how data can inform decisions in water resource management &amp; hazard mitigation.</p>
+<p>Building on my previous work as a data systems engineer, I enjoy tinkering with IoT devices and building mesh network infrastructure. I hope to create a low-cost, low-maintenance water-monitoring system that uses a self-healing LoRa mesh network.</p>
+<p>I’m passionate about open data and committed to sharing knowledge and resources to advance our understanding of the hydrosphere. When not in the lab, I’m exploring rivers, climbing mountains, or bikepacking.</p>
+<section id="thanks-for-stopping-by" class="level3">
+<h3 data-anchor-id="thanks-for-stopping-by">Thanks for stopping by!</h3>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p><img src="media/crab1.jpg" class="img-fluid"> <img src="media/r2r.jpeg" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p><img src="media/mt-adams.jpeg" class="img-fluid"> <img src="media/nws.jpg" class="img-fluid"></p>
+</div>
+</div>
+</div>
 
 
+</section>
+</section>
 </main></div>
 </div>
  <!-- /main -->
@@ -222,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/danduncan\.dev");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
